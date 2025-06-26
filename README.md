@@ -12,6 +12,11 @@ A Flutter app demonstrating secure biometric authentication and local data stora
 
 - This app does not allow to record screen fingerprint or pin while authentication . I have provided link so you can download apk and check features manually.
 
+```bash
+https://drive.google.com/drive/folders/1GfhhtSh8Ff9F6kF2ZJlMNcoajCxJG_P0?usp=drive_link
+
+```
+
 
 
 ## Installation

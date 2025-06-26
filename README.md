@@ -1,16 +1,56 @@
 # biometric_app
+A Flutter app demonstrating secure biometric authentication and local data storage.
 
-A new Flutter project.
+## Features
 
-## Getting Started
+- Biometric authentication (Fingerprint, Face ID)
+- Secure local storage for sensitive data
+- Simple and clean user interface
+- Cross-platform support (Android & iOS)
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/biometric_app.git
+    cd biometric_app
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Run the app:**
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+- Launch the app on your device or emulator.
+- Follow the on-screen instructions to enable and use biometric authentication.
+- The app will prompt for fingerprint or face authentication based on your device's capabilities.
+
+## Project Structure
+
+```
+lib/
+├── main.dart           # Entry point of the application
+├── screens/            # UI screens
+├── providers/           # providers 
+
+```
+
+## Dependencies
+
+- [`local_auth`](https://pub.dev/packages/local_auth): For biometric authentication
+- [`flutter_secure_storage`](https://pub.dev/packages/flutter_secure_storage): For secure data storage
+
+## Contributing
+
+Contributions are welcome! Please open issues and submit pull requests for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
